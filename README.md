@@ -71,37 +71,6 @@ The goal is to design a **document-oriented model**, validate schemas, and **imp
 
 ---
 
-## 📂 Project Structure
-
-```
-
-hotelandes-isis2304-mongo-spring/
-├─ db/
-│  ├─ schemas/                 # JSON Schemas and creation scripts
-│  └─ seed/                    # Sample data for RFC queries
-├─ docs/
-│  ├─ modelo-conceptual.pdf
-│  ├─ workload/                # Workload analysis (Annex A/B/C)
-│  └─ consultas/               # RFC queries and aggregation pipelines
-├─ src/
-│  ├─ main/java/edu/uniandes/hotelandes/
-│  │  ├─ controller/           # REST Controllers
-│  │  ├─ service/              # Business logic
-│  │  ├─ repository/           # Spring Data (MongoRepository)
-│  │  ├─ model/                # @Document entities and DTOs
-│  │  └─ config/               # Mongo config and mappings
-│  ├─ main/resources/
-│  │  ├─ application.properties
-│  │  └─ templates/            # (Optional) Thymeleaf views
-│  └─ test/java/...            # Unit and integration tests
-├─ .env.example
-├─ pom.xml
-└─ README.md
-
-````
-
----
-
 ## 🧾 `application.properties` (example)
 
 ```properties
